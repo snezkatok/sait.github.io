@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1С: Сборник курсов</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="menu-toggle" id="menuToggle">
+        <i class="fas fa-bars"></i>
+    </div>
+    
+    <div class="logo-container" id="logoContainer">
+        <img src="img/logo_65fd6a34d04a5.jpg" alt="Логотип" class="logo">
+    </div>
+    
+    <div class="current-section" id="currentSection">Главная</div>
+    
+    <nav id="sidebar">
+        <ul>
+            <li><a href="#" data-section="home" class="active"><i class="fas fa-home"></i> Главная</a></li>
+            <li><a href="#" data-section="start"><i class="fas fa-play-circle"></i> Старт в 1С</a></li>
+            <li><a href="#" data-section="programming"><i class="fas fa-code"></i> Программирование в 1С</a></li>
+            <li><a href="#" data-section="exams"><i class="fas fa-graduation-cap"></i> Подготовка к экзаменам</a></li>
+            <li><a href="#" data-section="edo"><i class="fas fa-file-contract"></i> ЭДО</a></li>
+            <li><a href="#" data-section="unf"><i class="fas fa-building"></i> УНФ</a></li>
+            <li><a href="#" data-section="complex"><i class="fas fa-cogs"></i> Комплексная автоматизация</a></li>
+            <li><a href="#" data-section="erp"><i class="fas fa-chart-line"></i> 1С:ERP</a></li>
+            <li><a href="#" data-section="buh"><i class="fas fa-calculator"></i> 1С:Бухгалтерия и Упрощенка</a></li>
+            <li><a href="#" data-section="trade"><i class="fas fa-shopping-cart"></i> Торговля и Розница</a></li>
+            <li><a href="#" data-section="doc"><i class="fas fa-file-alt"></i> 1С:Документооборот</a></li>
+            <li><a href="#" data-section="salary"><i class="fas fa-money-bill-wave"></i> 1С:Зарплата 8</a></li>
+            <li><a href="#" data-section="zupcorp"><i class="fas fa-users"></i> ЗУП КОРП</a></li>
+            <li><a href="#" data-section="bgu"><i class="fas fa-landmark"></i> БГУ и ЗКГУ</a></li>
+            <li><a href="#" data-section="school"><i class="fas fa-school"></i> Курсы для школьников</a></li>
+            <li><a href="#" data-section="holding"><i class="fas fa-chess-king"></i> 1С:Управление холдингом</a></li>
+            <li><a href="#" data-section="project"><i class="fas fa-tasks"></i> Управление проектами</a></li>
+            <li><a href="#" data-section="med"><i class="fas fa-heartbeat"></i> 1С:Медицина</a></li>
+            <li><a href="#" data-section="web"><i class="fas fa-globe"></i> WEB, JAVA и Android</a></li>
+            <li><a href="#" data-section="other"><i class="fas fa-ellipsis-h"></i> Другие курсы</a></li>
+        </ul>
+    </nav>
+
+    <div class="container page-content">
+        <!-- Главная страница -->
+        <section id="home" class="section-page active">
+            <div class="info-box">
+                <h2>Что такое 1С?</h2>
+                <p>1С — это российская программная платформа, созданная для автоматизации управления бизнесом. Она помогает компаниям контролировать финансы, вести бухгалтерию, управлять складом, продажами, рассчитывать зарплату, работать с клиентами и решать другие задачи.
+                    Её главное преимущество — гибкость: систему можно адаптировать под особенности любого предприятия, будь то небольшой магазин или крупная корпорация. 1С работает как на локальных компьютерах, так и в облаке, а также интегрируется с банками, онлайн-кассами и другими сервисами.
+                    Популярность платформы в странах СНГ объясняется её универсальностью и поддержкой местных законодательных требований.</p>
+            </div>
+            
+            <div class="info-box">
+                <h2>Язык программирования 1С</h2>
+                <p>Язык программирования 1С — это специальный инструмент, встроенный в платформу, который позволяет настраивать и расширять её возможности. 
+                    Его синтаксис частично русифицирован и упрощён, что делает его более доступным для новичков. 
+                    С помощью этого языка разработчики создают новые отчёты, меняют логику документооборота, добавляют функции для взаимодействия с внешними программами (например, сайтами или мобильными приложениями) или автоматизируют сложные бизнес-процессы. 
+                    Язык тесно связан с объектной структурой самой платформы, поэтому его изучение требует понимания как программирования, так и особенностей работы 1С.
+                    Он не используется вне экосистемы 1С, но остаётся ключевым инструментом для кастомизации системы под нужды бизнеса.</p>
+            </div>
+
+            <div class="info-box">
+                <h2>Видео-курсы 1С</h2>
+                <p>Видео-курсы 1С - это доступ к видео-урокам по всем основным и востребованным направлениям 1С на 90 дней.
+                    Общение с преподавателем по электронной почте, с возможностью быстро и подробно получить ответы на любые вопросы. 
+                    Идеальный вариант для тех, кто хочет изучать 1С самостоятельно и по своему собственному графику.</p>
+                <h3>Преимущества видео-курсов 1С:</h3>
+                <ul>
+                    <li><strong>Доступность:</strong> Для начала обучения 1С вам понадобится лишь стабильный интернет, ноутбук/ПК/смартфон и желание освоить новые навыки.</li>
+                    <li><strong>Экономия:</strong> Стартовый курс в 1С всего за 256 рублей! Стоимость видео-курсов одна из самых доступных при неизменном высоком качестве программы обучения.</li>
+                    <li><strong>Свободный график:</strong> Формат видео обучения 1С идеально подойдет для тех, кто не может подстроить свой ритм жизни под определенное расписание онлайн или очных курсов. Вы можете заниматься в любое удобное вам время.</li>
+                    <li><strong>Бесплатный доступ</strong> к облачным версиям программ на весь период обучения.</li>
+                </ul>
+            </div>
+            
+            <div class="stats-container">
+                <div class="stat-box">
+                    <h3>11,000+</h3>
+                    <p>Ежегодно более 11000 бухгалтеров, экономистов, кадровиков и программистов используют наши курсы</p>
+                </div>
+                <div class="stat-box">
+                    <h3>90+</h3>
+                    <p>Дней доступа к видео-урокам по всем направлениям</p>
+                </div>
+                <div class="stat-box">
+                    <h3>256₽</h3>
+                    <p>Стартовый курс в 1С всего за 256 рублей</p>
+                </div>
+            </div>
+            
+            <div class="contact-box">
+                <h2>Контактная информация</h2>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <h3>Телефон</h3>
+                        <p>+7 (347) 223 82 28<br>8 961-040-48-45</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Эл. почта</h3>
+                        <p>cso@online-ufa.ru</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Адрес</h3>
+                        <p>Республика Башкортостан,<br>г.Уфа, ул.Цюрупы, д.130</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Раздел Старт в 1С -->
+        <section id="start" class="section-page">
+            <h2 class="section-title">Старт в 1С</h2>
+            <div class="course-section">
+                <div class="course-card">
+                    <img src="img/Старт в 1С – обзорный курс для начинающих.png" 
+                         alt="Старт в 1С – обзорный курс">
+                    <h3>Старт в 1С – обзорный курс для начинающих</h3>
+                    <div class="price">от 256 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/start-v-1s-obzornyj-kurs-dlya-nachinayuschih/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+
+                <div class="course-card">
+                    <img src="img/Экосистема 1С.jpg" 
+                         alt="Экосистема 1С">
+                    <h3>Экосистема 1С</h3>
+                    <div class="price">от 799 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/ekosistema-1s/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+
+                <div class="course-card">
+                    <img src="img/Практические основы программирования в 1С для студентов (с разбором лабораторных задач).jpg" 
+                         alt="Практические основы программирования">
+                    <h3>Практические основы программирования в 1С для студентов (с разбором лабораторных задач)</h3>
+                    <div class="price">от 77 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/prakticheskie-osnovy-programmirovaniya-v-1s-dlya-studentov-s-razborom-laboratornyh-zadach/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+
+                <div class="course-card">
+                    <img src="img/1С.Зарплата и управление персоналом для начинающих(обучение ведется с нуля).jpg" 
+                         alt="1С:Зарплата и управление персоналом">
+                    <h3>«1С:Зарплата и управление персоналом для начинающих» (обучение ведется с нуля)</h3>
+                    <div class="price">от 698 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/1s-zarplata-i-upravlenie-personalom-dlya-nachinayuschih/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+
+                <div class="course-card">
+                    <img src="img/Оперативное управление в малом бизнесе на основе 1СУправление нашей фирмой 8.jpg" 
+                         alt="Оперативное управление">
+                    <h3>Оперативное управление в малом бизнесе на основе «1С:Управление нашей фирмой 8»</h3>
+                    <div class="price">от 2520 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/operativnoe-upravlenie-v-malom-biznese-na-osnove-1s-upravlenie-nashej-firmoj-8/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+
+                <div class="course-card">
+                    <img src="img/Концепция прикладного решения 1СERP Управление предприятием 2.jpg" 
+                         alt="Концепция 1С:ERP">
+                    <h3>Концепция прикладного решения «1С:ERP Управление предприятием 2»</h3>
+                    <div class="price">от 2520 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/kontseptsiya-prikladnogo-resheniya-1s-erp-upravlenie-predpriyatiem-2/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Раздел Программирование в 1С -->
+        <section id="programming" class="section-page">
+            <h2 class="section-title">Программирование в 1С</h2>
+            <div class="course-section">
+                <div class="course-card">
+                    <img src="img/Запросы в 1СПредприятие 8 для программистов и разработчиков.jpg" 
+                         alt="Запросы в 1С">
+                    <h3>Запросы в «1С:Предприятие 8» для программистов и разработчиков</h3>
+                    <div class="price">от 2520 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/zaprosy-v-1s-predpriyatie-8-dlya-programmistov-i-razrabotchikov/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+
+                <div class="course-card">
+                    <img src="img/Бизнес-процессы для подготовки к экзамену 1С Специалист по платформе.jpg" 
+                         alt="Бизнес-процессы">
+                    <h3>«Бизнес-процессы» для подготовки к экзамену 1С:Специалист по платформе</h3>
+                    <div class="price">от 555 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/biznes-protsessy-dlya-podgotovki-k-ekzamenu-1s-spetsialist-po-platforme/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+
+                <div class="course-card">
+                    <img src="img/Конфигурирование платформы 1С Предприятие 8.3.jpg" 
+                         alt="Конфигурирование">
+                    <h3>Конфигурирование платформы «1С:Предприятие 8.3»</h3>
+                    <div class="price">от 11500 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/konfigurirovanie-platformy-1s-predpriyatie-8-3/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+
+                <div class="course-card">
+                    <img src="img/Разработка интерфейса прикладного решения в 1С Предприятии 8.3.jpg" 
+                         alt="Разработка интерфейса">
+                    <h3>Разработка интерфейса прикладного решения в «1С:Предприятии 8.3»</h3>
+                    <div class="price">от 6300 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/razrabotka-interfejsa-prikladnogo-resheniya-v-1s-predpriyatii-8-3/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+
+                <div class="course-card">
+                    <img src="img/1С. Предприятие 8.3. Механизм системы компоновки данных (для начинающих и профессионалов).jpg" 
+                         alt="Механизм СКД">
+                    <h3>«1С:Предприятие 8.3». Механизм системы компоновки данных» (для начинающих и профессионалов)</h3>
+                    <div class="price">от 11400 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/1s-predpriyatie-8-3-mehanizm-sistemy-komponovki-dannyh-dlya-nachinayuschih-i-professionalov/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+
+                <div class="course-card">
+                    <img src="img/Знакомство с платформой  1C Предприятие 8.3.jpg" 
+                         alt="Знакомство с платформой">
+                    <h3>Знакомство с платформой «1C:Предприятие 8.3»</h3>
+                    <div class="price">от 2520 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/znakomstvo-s-platformoj-1c-predpriyatie-8-3/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+
+                <div class="course-card">
+                    <img src="img/Основы клиент-серверного программирования в системе  1СПредприятие 8.3.jpg" 
+                         alt="Клиент-сервер">
+                    <h3>Основы клиент-серверного программирования в системе «1С:Предприятие 8.3»</h3>
+                    <div class="price">от 10300 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/osnovy-klient-servernogo-programmirovaniya-v-sisteme-1s-predpriyatie-8-3/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+
+                <div class="course-card">
+                    <img src="img/Основы программирования в системе  1C Предприятие 8.3.jpg" 
+                         alt="Основы программирования">
+                    <h3>Основы программирования в системе «1C:Предприятие 8.3»</h3>
+                    <div class="price">от 2520 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/osnovy-programmirovaniya-v-sisteme-1c-predpriyatie-8-3/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+            </div>
+            <div class="more-link">
+                <span>!!!</span> Полный список курсов: 
+                <a href="https://edu.online-ufa.ru/courses/programmirovanie-v-1s/" style="color: white;">Смотреть все</a>
+            </div>
+        </section>
+
+        <!-- Раздел Подготовка к экзаменам -->
+        <section id="exams" class="section-page">
+            <h2 class="section-title">Подготовка к экзаменам</h2>
+            <div class="course-section">
+                <div class="course-card">
+                    <img src="img/Эксплуатация крупных информационных систем.jpg" 
+                         alt="Эксплуатация систем">
+                    <h3>Эксплуатация крупных информационных систем</h3>
+                    <div class="price">от 6500 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/ekspluatatsiya-krupnyh-informatsionnyh-sistem/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+
+                <div class="course-card">
+                    <img src="img/Подготовка к экзамену 1С Специалист по платформе.jpg" 
+                         alt="Специалист по платформе">
+                    <h3>Подготовка к экзамену 1С:Специалист по платформе</h3>
+                    <div class="price">от 15000 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/podgotovka-k-ekzamenu-1s-spetsialist-po-platforme/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+
+                <div class="course-card">
+                    <img src="img/Подготовка к экзамену 1С Специалист-консультант по  1С.Бухгалтерии 8.jpg" 
+                         alt="Бухгалтерия 8">
+                    <h3>Подготовка к экзамену 1С:Специалист-консультант по «1С:Бухгалтерии 8»</h3>
+                    <div class="price">от 4500 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/podgotovka-k-ekzamenu-1s-spetsialist-konsultant-po-1s-buhgalterii-8/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+
+                <div class="course-card">
+                    <img src="img/Внедрение 1С Управление торговлей ред. 11.5 . Подготовка к экзамену 1С Специалист-консультант.jpg" 
+                         alt="Управление торговлей">
+                    <h3>Внедрение «1С:Управление торговлей ред. 11.5». Подготовка к экзамену 1С:Специалист-консультант</h3>
+                    <div class="price">от 13669 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/vnedrenie-prikladnogo-resheniya-1s-upravlenie-torgovlej-8-podgotovka-k-ekzamenu-1s-spetsialist-konsultant/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+
+                <div class="course-card">
+                    <img src="img/Консультация к экзамену 1С Специалист по платформе  1С Предприятие 8.3.jpg" 
+                         alt="Консультация">
+                    <h3>Консультация к экзамену 1С:Специалист по платформе «1С:Предприятие 8.3»</h3>
+                    <div class="price">от 9200 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/konsultatsiya-k-ekzamenu-1s-spetsialist-po-platforme-1s-predpriyatie-8-3/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+
+                <div class="course-card">
+                    <img src="img/Подготовка к 1С Эксперту по технологическим вопросам. Применение методик.jpg" 
+                         alt="Эксперт по методикам">
+                    <h3>Подготовка к 1С:Эксперту по технологическим вопросам. Применение методик</h3>
+                    <div class="price">от 9840 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/podgotovka-k-1s-ekspertu-po-tehnologicheskim-voprosam-primenenie-metodik/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+
+                <div class="course-card">
+                    <img src="img/Подготовка к экзамену 1С Специалист-консультант  1С Зарплата и управление персоналом.jpg" 
+                         alt="Зарплата и персонал">
+                    <h3>Подготовка к экзамену 1С:Специалист-консультант «1С:Зарплата и управление персоналом»</h3>
+                    <div class="price">от 9000 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/podgotovka-k-ekzamenu-1s-spetsialist-konsultant-1s-zarplata-i-upravlenie-personalom/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+
+                <div class="course-card">
+                    <img src="img/Подготовка к 1С Эксперту по технологическим вопросам. Основной курс.jpg" 
+                         alt="Основной курс">
+                    <h3>Подготовка к 1С:Эксперту по технологическим вопросам. Основной курс</h3>
+                    <div class="price">от 19650 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/podgotovka-k-1s-ekspertu-po-tehnologicheskim-voprosam-osnovnoj-kurs/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+            </div>
+            <div class="more-link">
+                <span>!!!</span> Полный список курсов: 
+                <a href="https://edu.online-ufa.ru/courses/podgotovka-k-ekzamenam/" style="color: white;">Смотреть все</a>
+            </div>
+        </section>
+
+        <!-- Раздел ЭДО -->
+        <section id="edo" class="section-page">
+            <h2 class="section-title">ЭДО</h2>
+            <div class="course-section">
+                <div class="course-card">
+                    <img src="img/ЭДО  станьте уверенным пользователем.jpg" 
+                         alt="ЭДО">
+                    <h3>ЭДО: станьте уверенным пользователем</h3>
+                    <div class="price">от 2520 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/edo-stante-uverennym-polzovatelem/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Раздел УНФ -->
+        <section id="unf" class="section-page">
+            <h2 class="section-title">УНФ</h2>
+            <div class="course-section">
+                <div class="course-card">
+                    <img src="img/Оперативное управление в малом бизнесе на основе 1СУправление нашей фирмой 8.jpg" 
+                         alt="Оперативное управление">
+                    <h3>Оперативное управление в малом бизнесе на основе «1С:Управление нашей фирмой 8»</h3>
+                    <div class="price">от 2520 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/operativnoe-upravlenie-v-malom-biznese-na-osnove-1s-upravlenie-nashej-firmoj-8/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Финансы бизнеса с 1С УНФ.jpg" 
+                         alt="Финансы бизнеса">
+                    <h3>Финансы бизнеса с 1С:УНФ</h3>
+                    <div class="price">от 2520 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/finansy-biznesa-s-1s-unf/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Автоматизация малого и среднего производственного предприятия в  1С. Управление нашей фирмой.jpg" 
+                         alt="Автоматизация производства">
+                    <h3>Автоматизация малого и среднего производственного предприятия в «1С:Управление нашей фирмой»</h3>
+                    <div class="price">от 2520 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/proizvodstvennyj-uchet-dlya-malogo-biznesa-v-programme-1s-upravlenie-nashej-firmoj/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Рабочее место кассира.jpg" 
+                         alt="Рабочее место кассира">
+                    <h3>Рабочее место кассира</h3>
+                    <div class="price">от 2520 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/rabochee-mesto-kassira/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Раздел Комплексная автоматизация -->
+        <section id="complex" class="section-page">
+            <h2 class="section-title">Комплексная автоматизация</h2>
+            <div class="course-section">
+                <div class="course-card">
+                    <img src="img/Регламентированный учет в прикладном решении  1С ERP Управление предприятием 2  и  1С Комплексная автоматизация 2.jpg" 
+                         alt="Регламентированный учет">
+                    <h3>Регламентированный учет в прикладном решении «1С:ERP Управление предприятием 2» и «1С:Комплексная автоматизация 2»</h3>
+                    <div class="price">от 2520 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/reglamentirovannyj-uchet-v-prikladnom-reshenii-1s-erp-upravlenie-predpriyatiem-2-i-1s-kompleksnaya-avtomatizatsiya-2/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Торгово-складской функционал в УТ, КА и 1С RP.jpg" 
+                         alt="Торгово-складской функционал">
+                    <h3>Торгово-складской функционал в УТ, КА и 1С:ERP</h3>
+                    <div class="price">от 2520 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/torgovo-skladskoj-funktsional-v-ut-ka-i-1s-erp/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/1С Комплексная автоматизация 2.5 . Бюджетирование. Производство. Расчет себестоимости.jpg" 
+                         alt="Комплексная автоматизация">
+                    <h3>«1С:Комплексная автоматизация 2.5». Бюджетирование. Производство. Расчет себестоимости</h3>
+                    <div class="price">от 9000 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/1s-kompleksnaya-avtomatizatsiya-2-5-byudzhetirovanie-proizvodstvo-raschet-sebestoimosti/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Раздел 1С:ERP -->
+        <section id="erp" class="section-page">
+            <h2 class="section-title">1С:ERP</h2>
+            <div class="course-section">
+                <div class="course-card">
+                    <img src="img/Настройка системы 1С ERP и организация проекта перехода с 1С УПП.jpg" 
+                         alt="Настройка системы">
+                    <h3>Настройка системы 1С:ERP и организация проекта перехода с 1С:УПП</h3>
+                    <div class="price">от 4288 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/nastrojka-sistemy-1s-erp-i-organizatsiya-proekta-perehoda-s-1s-upp/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Отраслевые подсистемы и особенности применения программы  1С ERP Агропромышленный комплекс.jpg" 
+                         alt="Агропромышленный комплекс">
+                    <h3>Отраслевые подсистемы и особенности применения программы «1С:ERP Агропромышленный комплекс»</h3>
+                    <div class="price">от 18000 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/otraslevye-podsistemy-i-osobennosti-primeneniya-programmy-1s-erp-agropromyshlennyj-kompleks/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Автоматизация пищевой промышленности с 1С ERP 2 4 и отраслевыми решениями.jpg" 
+                         alt="Пищевая промышленность">
+                    <h3>Автоматизация пищевой промышленности с 1С:ERP 2.4 и отраслевыми решениями</h3>
+                    <div class="price">от 3200 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/avtomatizatsiya-pischevoj-promyshlennosti-s-1s-erp-2-4-i-otraslevymi-resheniyami/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Концепция автоматизации предприятия машиностроительной (приборостроительной) отрасли с 1С. ERP 2.5.jpg" 
+                         alt="Машиностроение">
+                    <h3>Концепция автоматизации предприятия машиностроительной (приборостроительной) отрасли с 1С:ERP 2.5</h3>
+                    <div class="price">от 3600 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/kontseptsiya-avtomatizatsii-predpriyatiya-mashinostroitelnoj-priborostroitelnoj-otrasli-s-1s-erp-2-5/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Теория и практика комплексной автоматизации строительства на базе  1С Предприятие 8. ERP Управление строительной организацией 2.jpg" 
+                         alt="Строительство">
+                    <h3>Теория и практика комплексной автоматизации строительства на базе «1С:Предприятие 8. ERP Управление строительной организацией 2»</h3>
+                    <div class="price">от 16000 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/teoriya-i-praktika-kompleksnoj-avtomatizatsii-stroitelstva-na-baze-1s-predpriyatie-8-erp-upravlenie-stroitelnoj-organizatsiej-2/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Концепция прикладного решения 1СERP Управление предприятием 2.jpg" 
+                         alt="Концепция ERP">
+                    <h3>Концепция прикладного решения «1С:ERP Управление предприятием 2»</h3>
+                    <div class="price">от 2520 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/kontseptsiya-prikladnogo-resheniya-1s-erp-upravlenie-predpriyatiem-2/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Торгово-складской функционал в УТ, КА и 1С RP.jpg" 
+                         alt="Торгово-складской">
+                    <h3>Торгово-складской функционал в УТ, КА и 1С:ERP</h3>
+                    <div class="price">от 2520 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/torgovo-skladskoj-funktsional-v-ut-ka-i-1s-erp/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Управление производством и ремонтами в прикладном решении  1С ERP Управление предприятием 2.jpg" 
+                         alt="Управление производством">
+                    <h3>Управление производством и ремонтами в прикладном решении «1С:ERP Управление предприятием 2»</h3>
+                    <div class="price">от 2520 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/upravlenie-proizvodstvom-i-remontami-v-prikladnom-reshenii-1s-erp-upravlenie-predpriyatiem-2/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+            </div>
+            <div class="more-link">
+                <span>!!!</span> Полный список курсов: 
+                <a href="https://edu.online-ufa.ru/courses/1s-erp/" style="color: white;">Смотреть все</a>
+            </div>
+        </section>
+
+        <!-- Раздел 1С:Бухгалтерия и Упрощенка -->
+        <section id="buh" class="section-page">
+            <h2 class="section-title">1С:Бухгалтерия и Упрощенка</h2>
+            <div class="course-section">
+                <div class="course-card">
+                    <img src="img/Ведение бухгалтерского учета в  1С Предприятие 8.jpg" 
+                         alt="Бухгалтерский учет">
+                    <h3>Ведение бухгалтерского учета в «1С:Предприятие 8»</h3>
+                    <div class="price">от 2520 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/vedenie-buhgalterskogo-ucheta-v-1s-predpriyatie-8/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Изменения в бухгалтерском и налоговом учете в 2022 году на практических примерах и анализ временных разниц по ПБУ 18 02.jpg" 
+                         alt="Изменения в учете">
+                    <h3>Изменения в бухгалтерском и налоговом учете в 2022 году на практических примерах и анализ временных разниц по ПБУ 18/02</h3>
+                    <div class="price">от 269 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/izmeneniya-v-buhgalterskom-i-nalogovom-uchete-v-2022-godu-na-prakticheskih-primerah-i-analiz-vremennyh-raznits-po-pbu-18-02/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Учет НДС (налог на добавленную стоимость).jpg" 
+                         alt="Учет НДС">
+                    <h3>Учет НДС (налог на добавленную стоимость)</h3>
+                    <div class="price">от 2520 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/uchet-nds-nalog-na-dobavlennuyu-stoimost/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Учет по ФСБУ 5 2019  Запасы  в  1С Бухгалтерии 8.jpg" 
+                         alt="Учет по ФСБУ">
+                    <h3>Учет по ФСБУ 5/2019 «Запасы» в «1С:Бухгалтерии 8»</h3>
+                    <div class="price">от 876 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/uchet-po-fsbu-5-2019-zapasy-v-1s-buhgalterii-8/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Бухгалтерский учет и налогообложение  теория .jpg" 
+                         alt="Бухгалтерский учет">
+                    <h3>Бухгалтерский учет и налогообложение: теория</h3>
+                    <div class="price">от 2520 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/buhgalterskij-uchet-i-nalogooblozhenie-teoriya-i-praktika/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Видеоурок  Национальная система прослеживаемости импортных товаров и изменения в форме счета-фактуры для всех налогоплательщиков.jpg" 
+                         alt="Национальная система">
+                    <h3>Видеоурок «Национальная система прослеживаемости импортных товаров и изменения в форме счета-фактуры для всех налогоплательщиков»</h3>
+                    <div class="price">от 267 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/videourok-natsionalnaya-sistema-proslezhivaemosti-importnyh-tovarov-i-izmeneniya-v-forme-scheta-faktury-dlya-vseh-nalogoplatelschikov/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Налоговый учет (ПБУ 18 02).jpg" 
+                         alt="Налоговый учет">
+                    <h3>Налоговый учет (ПБУ 18/02)</h3>
+                    <div class="price">от 2520 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/nalogovyj-uchet-pbu-18-02/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Ведение учета при применении упрощенной системы налогообложения УСН в  1С Предприятие 8.jpg" 
+                         alt="Упрощенная система">
+                    <h3>Ведение учета при применении упрощенной системы налогообложения (УСН) в «1С:Предприятие 8»</h3>
+                    <div class="price">от 2520 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/vedenie-ucheta-pri-primenenii-uproschennoj-sistemy-nalogooblozheniya-usn-v-1s-predpriyatie-8/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+            </div>
+            <div class="more-link">
+                <span>!!!</span> Полный список курсов: 
+                <a href="https://edu.online-ufa.ru/courses/1s-buhgalteriya-i-uproschenka/" style="color: white;">Смотреть все</a>
+            </div>
+        </section>
+
+        <!-- Раздел Торговля и Розница -->
+        <section id="trade" class="section-page">
+            <h2 class="section-title">Торговля и Розница</h2>
+            <div class="course-section">
+                <div class="course-card">
+                    <img src="img/Торгово-складской функционал в УТ, КА и 1С RP.jpg" 
+                         alt="Торгово-складской функционал">
+                    <h3>Торгово-складской функционал в УТ, КА и 1С:ERP</h3>
+                    <div class="price">от 2520 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/torgovo-skladskoj-funktsional-v-ut-ka-i-1s-erp/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Розничная торговля и складской учет  1С Розница 3.0 и 1С УНФ 3.0.jpg" 
+                         alt="Розничная торговля">
+                    <h3>Розничная торговля и складской учет «1С:Розница 3.0» и 1С:УНФ 3.0</h3>
+                    <div class="price">от 2520 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/roznichnaya-torgovlya-i-skladskoj-uchet-1s-roznitsa-3-0-i-1s-unf-3-0/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Рабочее место кассира.jpg" 
+                         alt="Рабочее место кассира">
+                    <h3>Рабочее место кассира</h3>
+                    <div class="price">от 2520 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/rabochee-mesto-kassira/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Учет маркированной обуви – настройка  1С Розницы.jpg" 
+                         alt="Учет маркированной обуви">
+                    <h3>Учет маркированной обуви – настройка «1С:Розницы»</h3>
+                    <div class="price">от 470 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/uchet-markirovannoj-obuvi-nastrojka-1s-roznitsy/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Раздел 1С:Документооборот -->
+        <section id="doc" class="section-page">
+            <h2 class="section-title">1С:Документооборот</h2>
+            <div class="course-section">
+                <div class="course-card">
+                    <img src="img/Профессиональная работа в программе  1С Документооборот 8.jpg" 
+                         alt="Профессиональная работа">
+                    <h3>Профессиональная работа в программе «1С:Документооборот 8»</h3>
+                    <div class="price">от 2520 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/professionalnaya-rabota-v-programme-1s-dokumentooborot-8/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Подготовка к автоматизации документооборота.jpg" 
+                         alt="Подготовка к автоматизации">
+                    <h3>Подготовка к автоматизации документооборота</h3>
+                    <div class="price">от 8100 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/podgotovka-k-avtomatizatsii-dokumentooborota/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Раздел 1С:Зарплата 8 -->
+        <section id="salary" class="section-page">
+            <h2 class="section-title">1С:Зарплата 8</h2>
+            <div class="course-section">
+                <div class="course-card">
+                    <img src="img/Тонкости расчета НДФЛ и страховых взносов в 1С ЗУП.jpg" 
+                         alt="Тонкости расчета">
+                    <h3>Тонкости расчета НДФЛ и страховых взносов в 1С:ЗУП</h3>
+                    <div class="price">от 649 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/tonkosti-rascheta-ndfl-i-strahovyh-vznosov-v-1s-zup/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/1С.Зарплата и управление персоналом для начинающих(обучение ведется с нуля).jpg" 
+                         alt="Зарплата для начинающих">
+                    <h3>«1С:Зарплата и управление персоналом для начинающих» (обучение ведется с нуля)</h3>
+                    <div class="price">от 698 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/1s-zarplata-i-upravlenie-personalom-dlya-nachinayuschih/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Рассчитываем зарплату в программе  1С Зарплата и управление персоналом.jpg" 
+                         alt="Расчет зарплаты">
+                    <h3>Рассчитываем зарплату в программе «1С:Зарплата и управление персоналом»</h3>
+                    <div class="price">от 2520 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/rasschityvaem-zarplatu-v-programme-1s-zarplata-i-upravlenie-personalom/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Кадровый учет в программе  1С Зарплата и управление персоналом  (Редакция 3.1).jpg" 
+                         alt="Кадровый учет">
+                    <h3>Кадровый учет в программе «1С:Зарплата и управление персоналом» (Редакция 3.1)</h3>
+                    <div class="price">от 2520 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/kadrovyj-uchet-v-programme-1s-zarplata-i-upravlenie-personalom-redaktsiya-3-1/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Настройка отчетов в программе  1С.Зарплата и управление персоналом.jpg" 
+                         alt="Настройка отчетов">
+                    <h3>Настройка отчетов в программе «1С:Зарплата и управление персоналом»</h3>
+                    <div class="price">от 1120 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/nastrojka-otchetov-v-programme-1s-zarplata-i-upravlenie-personalom/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Настройка видов расчета в ЗУП.jpg" 
+                         alt="Настройка видов расчета">
+                    <h3>Настройка видов расчета в ЗУП</h3>
+                    <div class="price">от 2099 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/nastrojka-vidov-rascheta-v-zup/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/1С Кабинет сотрудника – обзор и основы использования.jpg" 
+                         alt="Кабинет сотрудника">
+                    <h3>1С:Кабинет сотрудника – обзор и основы использования</h3>
+                    <div class="price">от 2520 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/1s-kabinet-sotrudnika/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+            </div>
+            <div class="more-link">
+                <span>!!!</span> Полный список курсов: 
+                <a href="https://edu.online-ufa.ru/courses/1s-zarplata-8/" style="color: white;">Смотреть все</a>
+            </div>
+        </section>
+
+        <!-- Раздел ЗУП КОРП -->
+        <section id="zupcorp" class="section-page">
+            <h2 class="section-title">ЗУП КОРП</h2>
+            <div class="course-section">
+                <div class="course-card">
+                    <img src="img/Практикум Обучение сотрудников. Сквозной пример в  1С ЗУП КОРП 8 ред. 3.jpg" 
+                         alt="Обучение сотрудников">
+                    <h3>Практикум «Обучение сотрудников. Сквозной пример в «1С:ЗУП КОРП 8 ред. 3»</h3>
+                    <div class="price">от 3000 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/praktikum-obuchenie-sotrudnikov-skvoznoj-primer-v-1s-zup-korp-8-red-3/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Практикум  Подбор, оценка кандидатов, адаптация и обучение новых сотрудников в  1С ЗУП КОРП.jpg" 
+                         alt="Подбор кандидатов">
+                    <h3>Практикум «Подбор, оценка кандидатов, адаптация и обучение новых сотрудников в «1С:ЗУП КОРП»</h3>
+                    <div class="price">от 6000 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/praktikum-podbor-otsenka-kandidatov-adaptatsiya-i-obuchenie-novyh-sotrudnikov-v-1s-zup-korp/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Аттестация сотрудников. Сквозной пример в  1С ЗУП КОРП 8  ред. 3.jpg" 
+                         alt="Аттестация сотрудников">
+                    <h3>Аттестация сотрудников. Сквозной пример в «1С:ЗУП КОРП 8» ред. 3</h3>
+                    <div class="price">от 2520 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/onlajn-praktikum-attestatsiya-sotrudnikov-skvoznoj-primer-v-1s-zup-korp-8-red-3/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Мотивация сотрудников. Сквозной пример в  1С ЗУП КОРП 8  ред. 3.jpg" 
+                         alt="Мотивация сотрудников">
+                    <h3>Мотивация сотрудников. Сквозной пример в «1С:ЗУП КОРП 8» ред. 3</h3>
+                    <div class="price">от 3000 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/motivatsiya-sotrudnikov-skvoznoj-primer-v-1s-zup-korp-8-red-3/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Оценка кандидатов и сотрудников. Сквозной пример в 1С. ЗУП КОРП.jpg" 
+                         alt="Оценка кандидатов">
+                    <h3>Оценка кандидатов и сотрудников. Сквозной пример в «1С:ЗУП КОРП»</h3>
+                    <div class="price">от 6000 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/otsenka-kandidatov-i-sotrudnikov-skvoznoj-primer-v-1s-zup-korp/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/1С Кабинет сотрудника – обзор и основы использования.jpg" 
+                         alt="Кабинет сотрудника">
+                    <h3>1С:Кабинет сотрудника – обзор и основы использования</h3>
+                    <div class="price">от 2520 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/1s-kabinet-sotrudnika/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Раздел БГУ и ЗКГУ -->
+        <section id="bgu" class="section-page">
+            <h2 class="section-title">БГУ и ЗКГУ</h2>
+            <div class="course-section">
+                <div class="course-card">
+                    <img src="img/Ведение учета в программе  1С Бухгалтерия государственного учреждения , ред. 2.0 на примере санатория.jpg" 
+                         alt="Бухгалтерия государственного учреждения">
+                    <h3>Ведение учета в программе «1С:Бухгалтерия государственного учреждения», ред. 2.0 (на примере санатория)</h3>
+                    <div class="price">от 2520 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/vedenie-ucheta-v-programme-1s-buhgalteriya-gosudarstvennogo-uchrezhdeniya-red-2-0-na-primere-sanatoriya/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Использование конфигурации  Зарплата и кадры государственного учреждения  (ред. 3.1).jpg" 
+                         alt="Зарплата и кадры">
+                    <h3>Использование конфигурации «Зарплата и кадры государственного учреждения» (ред. 3.1)</h3>
+                    <div class="price">от 2520 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/ispolzovanie-konfiguratsii-zarplata-i-kadry-gosudarstvennogo-uchrezhdeniya-red-3-1/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Раздел Курсы для школьников -->
+        <section id="school" class="section-page">
+            <h2 class="section-title">Курсы для школьников</h2>
+            <div class="course-section">
+                <div class="course-card">
+                    <img src="img/Программирование на языке Java.jpg" 
+                         alt="Программирование на Java">
+                    <h3>Программирование на языке Java</h3>
+                    <div class="price">от 950 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/programmirovanie-na-yazyke-java-modul-1/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Курс Python для школьников.jpg" 
+                         alt="Курс Python">
+                    <h3>Курс Python для школьников</h3>
+                    <div class="price">от 3290 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/kurs-python-dlya-shkolnikov/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Современная WEB-разработка.jpg" 
+                         alt="WEB-разработка">
+                    <h3>Современная WEB-разработка</h3>
+                    <div class="price">от 950 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/sovremennaya-web-razrabotka-modul-1/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Освоение виртуального мира (в очном формате Юный программист).jpg" 
+                         alt="Виртуальный мир">
+                    <h3>Освоение виртуального мира (в очном формате Юный программист)</h3>
+                    <div class="price">от 3290 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/osvoenie-virtualnogo-mira/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Основы программирования в 1С.jpg" 
+                         alt="Основы программирования в 1С">
+                    <h3>Основы программирования в 1С</h3>
+                    <div class="price">от 3290 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/osnovy-programmirovaniya-v-1s-modul-1/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Алгоритмы. Олимпиадное программирование.jpg" 
+                         alt="Олимпиадное программирование">
+                    <h3>Алгоритмы. Олимпиадное программирование</h3>
+                    <div class="price">от 3290 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/algoritmy-olimpiadnoe-programmirovanie-modul-1/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Системное администрирование.jpg" 
+                         alt="Системное администрирование">
+                    <h3>Системное администрирование</h3>
+                    <div class="price">от 3290 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/sistemnoe-administrirovanie/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Навыки презентаций школьникам.jpg" 
+                         alt="Навыки презентаций">
+                    <h3>Навыки презентаций школьникам</h3>
+                    <div class="price">от 400 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/presentation-skills/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+            </div>
+            <div class="more-link">
+                <span>!!!</span> Полный список курсов: 
+                <a href="https://edu.online-ufa.ru/courses/kursy-dlya-shkolnikov/" style="color: white;">Смотреть все</a>
+            </div>
+        </section>
+
+        <!-- Раздел 1С:Управление холдингом -->
+        <section id="holding" class="section-page">
+            <h2 class="section-title">1С:Управление холдингом</h2>
+            <div class="course-section">
+                <div class="course-card">
+                    <img src="img/Обзор прикладного решения  1С Управление холдингом 8.jpg" 
+                         alt="Управление холдингом">
+                    <h3>Обзор прикладного решения «1С:Управление холдингом 8»</h3>
+                    <div class="price">от 20000 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/obzor-prikladnogo-resheniya-1s-upravlenie-holdingom-8/#toc" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Бюджетный контроль в прикладном решении  1 С ERP. Управление холдингом 8.jpg" 
+                         alt="Бюджетный контроль">
+                    <h3>Бюджетный контроль в прикладном решении «1С:ERP. Управление холдингом 8»</h3>
+                    <div class="price">от 17600 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/byudzhetnyj-kontrol-v-prikladnom-reshenii-1s-erp-upravlenie-holdingom-8/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Бюджетирование в прикладном решении  1С Управление холдингом 8.jpg" 
+                         alt="Бюджетирование">
+                    <h3>Бюджетирование в прикладном решении «1С:Управление холдингом 8»</h3>
+                    <div class="price">от 24600 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/byudzhetirovanie-v-prikladnom-reshenii-1s-upravlenie-holdingom-8/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Автоматизация подготовки консолидированной МСФО отчетности на базе  1С Управление холдингом 8.jpg" 
+                         alt="МСФО отчетность">
+                    <h3>Автоматизация подготовки консолидированной МСФО отчетности на базе «1С:Управление холдингом 8»</h3>
+                    <div class="price">от 26850 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/avtomatizatsiya-podgotovki-konsolidirovannoj-msfo-otchetnosti-na-baze-1s-upravlenie-holdingom-8/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Автоматизация подготовки отчетности по МСФО в  1С ERP. Управление холдингом.jpg" 
+                         alt="МСФО в ERP">
+                    <h3>Автоматизация подготовки отчетности по МСФО в «1С:ERP. Управление холдингом»</h3>
+                    <div class="price">от 15300 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/avtomatizatsiya-podgotovki-otchetnosti-po-msfo-v-1s-erp-upravlenie-holdingom/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Практические аспекты проектов внедрения  1С Управление холдингом 8.jpg" 
+                         alt="Внедрение">
+                    <h3>Практические аспекты проектов внедрения «1С:Управление холдингом 8»</h3>
+                    <div class="price">от 16500 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/prakticheskie-aspekty-proektov-vnedreniya-1s-upravlenie-holdingom-8/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+            </div>
+            <div class="more-link">
+                <span>!!!</span> Полный список курсов: 
+                <a href="https://edu.online-ufa.ru/courses/1s-upravlenie-holdingom/" style="color: white;">Смотреть все</a>
+            </div>
+        </section>
+
+        <!-- Раздел Управление проектами -->
+        <section id="project" class="section-page">
+            <h2 class="section-title">Управление проектами</h2>
+            <div class="course-section">
+                <div class="course-card">
+                    <img src="img/Ключевые инструменты аналитиков  описание и оптимизация бизнес-процессов с целью внедрения информационной системы.jpg" 
+                         alt="Инструменты аналитиков">
+                    <h3>Ключевые инструменты аналитиков: описание и оптимизация бизнес-процессов с целью внедрения информационной системы</h3>
+                    <div class="price">от 14000 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/klyuchevye-instrumenty-analitikov-opisanie-i-optimizatsiya-biznes-protsessov-s-tselyu-vnedreniya-informatsionnoj-sistemy/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Раздел 1С:Медицина -->
+        <section id="med" class="section-page">
+            <h2 class="section-title">1С:Медицина</h2>
+            <div class="course-section">
+                <div class="course-card">
+                    <img src="img/Ведение учета в прикладном решении  1С. Медицина. Больничная аптека.jpg" 
+                         alt="Больничная аптека">
+                    <h3>Ведение учета в прикладном решении «1С:Медицина. Больничная аптека»</h3>
+                    <div class="price">от 2520 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/vedenie-ucheta-v-prikladnom-reshenii-1s-meditsina-bolnichnaya-apteka/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Раздел WEB, JAVA и Android -->
+        <section id="web" class="section-page">
+            <h2 class="section-title">WEB, JAVA и Android</h2>
+            <div class="course-section">
+                <div class="course-card">
+                    <img src="img/Современная WEB-разработка.jpg" 
+                         alt="Web-разработка">
+                    <h3>Современная Web-разработка</h3>
+                    <div class="price">от 950 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/sovremennaya-web-razrabotka/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Основы программирования на языке Java для школьников.jpg" 
+                         alt="Java для школьников">
+                    <h3>Основы программирования на языке Java для школьников</h3>
+                    <div class="price">от 950 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/osnovy-programmirovaniya-na-yazyke-java-dlya-shkolnikov/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Основы программирования на языке Java для школьников. Модуль 2.jpg" 
+                         alt="Java модуль 2">
+                    <h3>Основы программирования на языке Java для школьников. Модуль 2.</h3>
+                    <div class="price">от 950 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/osnovy-programmirovaniya-na-yazyke-java-dlya-shkolnikov-modul-2/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Основы программирования на языке JAVA для школьников. Модуль 3.jpg" 
+                         alt="Java модуль 3">
+                    <h3>Основы программирования на языке JAVA для школьников. Модуль 3.</h3>
+                    <div class="price">от 2520 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/osnovy-programmirovaniya-na-yazyke-java-dlya-shkolnikov-modul-3/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Раздел Другие курсы -->
+        <section id="other" class="section-page">
+            <h2 class="section-title">Другие курсы</h2>
+            <div class="course-section">
+                <div class="course-card">
+                    <img src="img/Применение Искусственного Интеллекта для  1С ITIL.jpg" 
+                         alt="Искусственный интеллект">
+                    <h3>Применение Искусственного Интеллекта для «1С:ITIL»</h3>
+                    <div class="price">от 7900 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/primenenie-iskusstvennogo-intellekta-dlya-1s-itil/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Ведение учета в прикладном решении  1С. Медицина. Больничная аптека.jpg" 
+                         alt="1С:Медицина">
+                    <h3>Ведение учета в прикладном решении «1С:Медицина. Больничная аптека»</h3>
+                    <div class="price">от 2520 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/vedenie-ucheta-v-prikladnom-reshenii-1s-meditsina-bolnichnaya-apteka/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+                
+                <div class="course-card">
+                    <img src="img/Курс по программе  1С Садовод.jpg" 
+                         alt="1С:Садовод">
+                    <h3>Курс по программе «1С:Садовод»</h3>
+                    <div class="price">от 2520 рублей</div>
+                    <a href="https://edu.online-ufa.ru/course/kurs-po-programme-1s-sadovod/" 
+                       class="more-btn">Подробнее</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
