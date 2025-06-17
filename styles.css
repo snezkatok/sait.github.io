@@ -63,6 +63,93 @@ body {
     transform: translateX(20px);
     animation: fadeIn 0.5s forwards 0.3s;
 }
+/* Добавленные стили */
+.progress-bar {
+    height: 8px;
+    background:#337ab7;
+;
+    border-radius: 4px;
+    margin: 15px 0;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background: var(--primary);
+    transition: width 1.5s ease-in-out;
+}
+
+.feature-badge {
+    position: absolute;
+    top: -12px;
+    right: 20px;
+    background: var(--accent);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    box-shadow: 0 4px 8px ;   
+    background: #337ab7;
+
+    z-index: 10;
+}
+
+.site-footer {
+    background: var(--dark);
+    color: white;
+    padding: 25px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.social-links {
+    display: flex;
+    gap: 20px;
+}
+
+.social-links a {
+    color: white;
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.social-links a:hover {
+    transform: translateY(-5px);
+    color: #ffcc00;
+}
+
+/* Модифицированные стили */
+@media (max-width: 992px) {
+    .current-section {
+        left: 90px; /* Увеличен отступ */
+        font-size: 1.3rem; /* Увеличен размер шрифта */
+    }
+}
+
+.course-card {
+    position: relative; /* Для позиционирования бейджа */
+    overflow: visible; /* Разрешаем отображение за пределами карточки */
+}
+
+/* Анимация для статистики */
+@keyframes countUp {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.stat-box h3 {
+    animation: countUp 1s ease-out forwards;
+}
 
 @keyframes fadeIn {
     to {
